@@ -16,14 +16,14 @@ Program ini berisi sistem pengenalan kalori makanan menggunakan Tensorflow Lite 
 
 1. Buka Python dan ketikan <br />
 - Untuk mengetahui IP Address dari ESP32CAM <br />
-'''
+```
 python ipscanner.py
-'''
+```
 
 - Untuk membuka sistem <br />
-'''
+```
 python kalori.py --modeldir=tflite
-'''
+```
 
 ###### Catatan<br />
 - Ganti SSID dan Password WiFi pada program ESP32CAM <br />
